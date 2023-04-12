@@ -1,0 +1,159 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    padding-top: 0px;
+}
+.header {
+    background:rgba(23, 94, 49, 0.949);
+    display: flex;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction:column;
+    background-color: #FFFFFF;
+}
+
+.images1 {
+    display:block;
+    padding-top: 10px;
+}
+
+.images2 {
+    display:block;
+    padding-top: 30px;
+}
+
+.images3 {
+    display:block;
+    padding-top: 30px;
+}
+
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position:relative;
+    border-radius: 5px;
+}
+
+.logo {
+    float: left;
+    margin-left: 5%;
+}
+
+.menu {
+    float:left;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-left: 220px;
+    display:flex;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    background:#FFFFFF;
+    z-index: 1;
+    border: 1px solid rgba(23, 94, 49, 0.949);
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#FFFFFF;
+    font-weight: bold;
+    text-align:center;
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-color:#FFFFFF;
+    display: flex;
+}
+
+.foto {
+    display:flex;
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.profil {
+    display:block;
+    width: 25%;
+    text-align: justify;
+    font-family: 'Verdana';
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    padding-left: 3%;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    background-color:rgba(115, 207, 149, 0.949);
+}
+
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    margin:auto;
+}
+
+@media screen and (max-width: 991.98px){
+    .wrapper {
+        width: 90%;
+    }
+    .logo {
+        display: flex;
+        margin: auto;
+    }
+
+    nav.menu ul {
+        text-align: center;
+        margin:auto;
+        line-height: 60px;
+    }
+
+    nav.menu ul li {
+        display: inline-block;
+        float: none;
+    }
+}
